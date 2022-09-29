@@ -13,6 +13,11 @@
 		44B6BE7428E4173F00ECB27B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44B6BE7228E4173F00ECB27B /* Main.storyboard */; };
 		44B6BE7628E4174000ECB27B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44B6BE7528E4174000ECB27B /* Assets.xcassets */; };
 		44B6BE7928E4174000ECB27B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44B6BE7728E4174000ECB27B /* LaunchScreen.storyboard */; };
+		44B6BE8228E418EC00ECB27B /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 44B6BE8128E418EC00ECB27B /* SnapKit */; };
+		44B6BE8428E41E1200ECB27B /* EmojiTableVIewControllerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B6BE8328E41E1200ECB27B /* EmojiTableVIewControllerTableViewController.swift */; };
+		44B6BE8628E427BF00ECB27B /* EmojiTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B6BE8528E427BF00ECB27B /* EmojiTableViewCell.swift */; };
+		44B6BE8828E42D7500ECB27B /* emojiModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B6BE8728E42D7500ECB27B /* emojiModel.swift */; };
+		44EADA7928E43997003C640D /* NewEmojiTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EADA7828E43997003C640D /* NewEmojiTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,10 @@
 		44B6BE7528E4174000ECB27B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		44B6BE7828E4174000ECB27B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		44B6BE7A28E4174000ECB27B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44B6BE8328E41E1200ECB27B /* EmojiTableVIewControllerTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiTableVIewControllerTableViewController.swift; sourceTree = "<group>"; };
+		44B6BE8528E427BF00ECB27B /* EmojiTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiTableViewCell.swift; sourceTree = "<group>"; };
+		44B6BE8728E42D7500ECB27B /* emojiModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = emojiModel.swift; sourceTree = "<group>"; };
+		44EADA7828E43997003C640D /* NewEmojiTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewEmojiTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44B6BE8228E418EC00ECB27B /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,7 +69,11 @@
 				44B6BE6C28E4173F00ECB27B /* AppDelegate.swift */,
 				44B6BE6E28E4173F00ECB27B /* SceneDelegate.swift */,
 				44B6BE7028E4173F00ECB27B /* ViewController.swift */,
+				44B6BE8328E41E1200ECB27B /* EmojiTableVIewControllerTableViewController.swift */,
+				44EADA7828E43997003C640D /* NewEmojiTableViewController.swift */,
+				44B6BE8728E42D7500ECB27B /* emojiModel.swift */,
 				44B6BE7228E4173F00ECB27B /* Main.storyboard */,
+				44B6BE8528E427BF00ECB27B /* EmojiTableViewCell.swift */,
 				44B6BE7528E4174000ECB27B /* Assets.xcassets */,
 				44B6BE7728E4174000ECB27B /* LaunchScreen.storyboard */,
 				44B6BE7A28E4174000ECB27B /* Info.plist */,
@@ -83,6 +97,9 @@
 			dependencies = (
 			);
 			name = tableViewSwiftbook;
+			packageProductDependencies = (
+				44B6BE8128E418EC00ECB27B /* SnapKit */,
+			);
 			productName = tableViewSwiftbook;
 			productReference = 44B6BE6928E4173F00ECB27B /* tableViewSwiftbook.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +128,9 @@
 				Base,
 			);
 			mainGroup = 44B6BE6028E4173F00ECB27B;
+			packageReferences = (
+				44B6BE8028E418EC00ECB27B /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = 44B6BE6A28E4173F00ECB27B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,8 +158,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44B6BE8828E42D7500ECB27B /* emojiModel.swift in Sources */,
 				44B6BE7128E4173F00ECB27B /* ViewController.swift in Sources */,
 				44B6BE6D28E4173F00ECB27B /* AppDelegate.swift in Sources */,
+				44B6BE8628E427BF00ECB27B /* EmojiTableViewCell.swift in Sources */,
+				44EADA7928E43997003C640D /* NewEmojiTableViewController.swift in Sources */,
+				44B6BE8428E41E1200ECB27B /* EmojiTableVIewControllerTableViewController.swift in Sources */,
 				44B6BE6F28E4173F00ECB27B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -356,6 +380,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		44B6BE8028E418EC00ECB27B /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				branch = develop;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		44B6BE8128E418EC00ECB27B /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 44B6BE8028E418EC00ECB27B /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 44B6BE6128E4173F00ECB27B /* Project object */;
 }
